@@ -18,11 +18,11 @@ footer {
     background: #031220;
     color: #F2AC29;
     text-align: center;
-    padding: 15px;
-    position: fixed; /*used code from w3schools to make footer stay at the bottom (remember to reference in readme*/
+    position: fixed;
+    /*used code from w3schools to make footer stay at the bottom (remember to reference in readme*/
     left: 0;
     bottom: 0;
-    width: 100%
+    width: 100%;
 }
 
 nav {
@@ -40,3 +40,20 @@ article {
     padding: 25px;
     font-size: 20px;
 }
+
+.image1 {
+    max-width: 750px;
+    height: auto;
+}
+
+.image2 {
+    border-radius: 50%;
+    max-width: 100px;
+    height: auto;
+}
+
+/*color scheme:
+header, footer & navigation text color: #F2AC29
+header and footer background: #031220
+body text color: #fff
+body background (linear gradient): #010626, #2481A6 */
