@@ -23,6 +23,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    height: auto;
 }
 
 nav {
@@ -37,12 +38,13 @@ nav a {
 
 article {
     font-family: 'Times New Roman', Times, serif;
-    padding: 25px;
+    padding-left: 20px;
+    padding-bottom: 30px;
     font-size: 20px;
 }
 
 .image1 {
-    max-width: 750px;
+    max-width: 550px;
     height: auto;
 }
 
@@ -50,6 +52,11 @@ article {
     border-radius: 50%;
     max-width: 100px;
     height: auto;
+}
+
+video {
+    width: auto;
+    height: 300px
 }
 
 /*color scheme:
