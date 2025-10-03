@@ -10,14 +10,14 @@
     <link rel="stylesheet" type="text/css" href="desktop.css" media="only screen and (min-width:960px)">
     <link rel="stylesheet" type="text/css" href="tablet.css"
         media="only screen and (min-width:481px) and (max-width:959px)">
-    <link rel="stylesheet" type="text/css" href="mobile.css" media="only screen and max-width:480px">
+    <link rel="stylesheet" type="text/css" href="mobile.css" media="only screen and (max-width:480px)">
 </head>
 
 <body>
     <div id="wrapper">
         <header>
-            
-    <!--Header with navigation to the different pages-->
+
+            <!--Header with navigation to the different pages-->
             <nav>
                 <a href="home.html">Home Page</a> |
                 <a href="Projects.html">Projects Page</a> |
@@ -30,29 +30,20 @@
             <h1>Contact Me</h1>
             <!--Form with validation rules-->
             <form>
-            <p>
-                <label for="First Name">First Name: </label>
-                <input type="text" name="First Name" size="40" placeholder="Enter your first name" required>
-            </p>
-            <p>
-                <label for="Last Name">Last Name: </label>
-                <input type="text" name="Last Name" size="40" placeholder="Enter your last name" required>
-            </p>
-            <p>
-                <label for="Email">Email: </label>
-                <input type="email" name="Email" size="40" placeholder="Enter your email address" required>
-            </p>
-            <p>
-                <label for="Phone Number">Phone Number: </label>
-                <input type="tel" name="Phone Number" size="40" placeholder="Enter your phone number" required>
-            </p>
-            <p>
-                <label for="comments">Comments: </label>
-                <br>
-                <textarea name="comments" cols="50" rows="8"></textarea>
-            </p>
-            <button type="submit">Submit</button> <!--Submit button-->
-        </form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" size="40" placeholder= "Please enter your Name." required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" size="40" placeholder= "Please enter your Email." required><br><br>
+
+      <label for="phone">Phone Number:</label><br>
+      <input type="tel" id="phone" name="phone" size="40" placeholder= "Please enter your Phone Number." required><br><br>
+
+      <label for="comments">Comments:</label><br>
+      <textarea id="comments" name="comments" ></textarea><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
         </article>
 
     </div>
